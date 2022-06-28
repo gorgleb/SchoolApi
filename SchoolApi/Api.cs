@@ -13,8 +13,8 @@ public static class Api
         app.MapPost("/Users", InsertStudent);
         app.MapPut("/Users", UpdateStudent);
         app.MapDelete("/Users", DeleteStudent);
-        //app.MapGet("/Users", SelectTheLaggards);
-        //app.MapGet("/Users", ChooseTheExcellentStudents);
+        app.MapGet("/Laggards", SelectTheLaggards);
+        app.MapGet("/Excellents", ChooseTheExcellentStudents);
 
     }
 
