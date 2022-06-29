@@ -67,8 +67,8 @@
     <Build Include="dbo\StoredProcedures\spStudent_GetAll.sql" />
     <Build Include="dbo\StoredProcedures\spStudent_Insert.sql" />
     <Build Include="dbo\StoredProcedures\spStudent_Update.sql" />
-    <Build Include="dbo\StoredProcedures\spStudents_ChooseTheExcellentStudents.sql" />
-    <Build Include="dbo\StoredProcedures\spStudents_SelectTheLaggards.sql" />
+    <Build Include="dbo\StoredProcedures\spStudent_ChooseTheExcellentStudents.sql" />
+    <Build Include="dbo\StoredProcedures\spStudent_SelectTheLaggards.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />
